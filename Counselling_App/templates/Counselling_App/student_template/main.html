@@ -1,0 +1,111 @@
+
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+<head>
+    {% load static %}
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>E-Guidance-Counselling-System</title>
+    <!-- Custom CSS -->
+    <!-- Custom CSS -->
+    <link href="{% static 'assets/libs/chartist/dist/chartist.min.css' %}" rel="stylesheet">
+    <link href="{% static 'dist/css/style.min.css' %}" rel="stylesheet">
+    <script src="{% static 'js/main.js' %}"></script>
+</head>
+<body>
+    <!-- ============================================================== -->
+    <!-- Preloader - style you can find in spinners.css -->
+    <!-- ============================================================== -->
+    <div class="preloader">
+        <div class="lds-ripple">
+            <div class="lds-pos"></div>
+            <div class="lds-pos"></div>
+        </div>
+    </div>
+    <!-- ============================================================== -->
+    <!-- Main wrapper - style you can find in pages.scss -->
+    <!-- ============================================================== -->
+    
+    {% block Index %}
+    
+
+    {% endblock Index %}
+
+    {% block Appointment %}
+
+    {% endblock Appointment %}
+
+    {% block Appointments %}
+
+    {% endblock Appointments %}
+
+
+    {% block Counselling %}
+
+    {% endblock Counselling %}
+
+    {% block ReferralR %}
+
+    {% endblock ReferralR %}
+
+    {% block Referral %}
+
+    {% endblock Referral %}
+
+    {% block Schedule %}
+
+    {% endblock Schedule %}
+
+    {% block Student %}
+
+    {% endblock Student %}
+
+    {% block Course %}
+
+    {% endblock Course %}
+
+
+    {% block course %}
+    
+
+    {% endblock course %}
+
+    <!-------Student-->
+    {% block IndexS %}
+
+    {% endblock IndexS %}
+
+
+    {% block CounsellingS %}
+
+    {% endblock CounsellingS %}
+
+    {% block New-appointment %}
+
+    {% endblock New-appointment %}
+
+
+
+
+<!-- All Jquery -->
+    <!-- ============================================================== -->
+    <script src="{% static 'assets/libs/jquery/dist/jquery.min.js' %}"></script>
+    <!-- Bootstrap tether Core JavaScript -->
+    <script src="{% static 'assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js' %}"></script>
+    <script src="{% static 'dist/js/app-style-switcher.js' %}"></script>
+    <!--Wave Effects -->
+    <script src="{% static 'dist/js/waves.js' %}"></script>
+    <!--Menu sidebar -->
+    <script src="{% static 'dist/js/sidebarmenu.js' %}"></script>
+    <!--Custom JavaScript -->
+    <script src="{% static 'dist/js/custom.js' %}"></script>
+    <!--This page JavaScript -->
+    <!--chartis chart-->
+    <script src="{% static 'assets/libs/chartist/dist/chartist.min.js' %}"></script>
+    <script src="{% static 'assets/libs/chartist-plugin-tooltips/dist/chartist-plugin-tooltip.min.js' %}"></script>
+    <script src="{% static 'dist/js/pages/dashboards/dashboard1.js' %}"></script>
+</body>
+
+</html>
